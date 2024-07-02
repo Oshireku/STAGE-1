@@ -1,0 +1,214 @@
+/* styles */
+
+body {
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+
+
+}
+
+h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    margin-bottom: 10%;
+    font-size: 3rem;
+    padding-top: 2%;
+    color: #00224D;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav bar  */
+
+nav {
+    background-color: #f9fdfb;
+    padding-bottom: 1%;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-toggle {
+    font-size: 1.5rem;
+
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.nav-toggle:hover {
+
+    transform: rotate(90deg);
+}
+
+
+.nav-links a:hover {
+    padding-left: 1.5rem;
+}
+
+
+.nav-links {
+    height: 0rem;
+    overflow: hidden;
+    transition: var(--transition);
+    font-family: "Manrope", sans-serif;
+    font-weight: 100;
+}
+
+.navbar-brand {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+
+.show-links {
+    height: 10rem;
+}
+
+/* website sections */
+.spacing-section-top {
+    padding-top: 4%;
+}
+
+.spacing-section-buttom {
+    padding-bottom: 2%;
+}
+
+#Home-section {
+    background-color: #DDDDDD;
+
+}
+
+
+
+/* Goals section */
+
+#Goals {
+    background-color: #D6DAC8;
+
+}
+
+.coding-image {
+
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+
+/* HNG section */
+
+#HNG {
+    background-color: rgba(59, 130, 246, .5);
+
+}
+
+.HNG-text {
+    color: #FFFED3;
+}
+
+.external-link {
+    color: #973131;
+}
+
+/* Contact section */
+
+
+.footer-link {
+    margin: 20px;
+    color: #B0C5A4;
+    text-decoration: none;
+}
+
+
+
+
+
+.copy-right {
+    color: #5F5D9C;
+    margin-top: 30px;
+    font-size: 0.75rem;
+}
+
+
+/* media queries */
+
+@media (max-width: 991px) {
+
+    .intro-image {
+        text-align: center;
+    }
+
+    .second-section {
+        padding-top: 15%;
+    }
+
+    .coding-image {
+
+        float: none;
+        margin-right: 30px;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+    .nav-center {
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .nav-header {
+        padding: 0;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav-links {
+        height: auto;
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 0;
+        margin: 0 0.5rem;
+    }
+
+    .nav-links a:hover {
+        padding: 0;
+        background: transparent;
+    }
+
+
+
+
+
+
+}

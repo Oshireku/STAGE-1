@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T Beast</title>
+    <!-- favicon link -->
+    <link rel="icon" href="favicon-16x16.ico">
+    <!-- google fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <!-- font awesome links -->
+    <script src="https://kit.fontawesome.com/0e624a6fbc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <div class="nav-center">
+            <div class="nav-header">
+                <P class="navbar-brand" data-testid="slackDisplayName">T Beast</P>
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+
+                </button>
+            </div>
+            <!-- links -->
+            <ul class="nav-links">
+                <li>
+                    <a href="#Home">Home</a>
+                </li>
+                <li>
+                    <a href="#Goals">Goals</a>
+                </li>
+                <li>
+                    <a href="#Hobbies">Hobbies</a>
+                </li>
+                <li>
+                    <a href="#HNG">HNG and others</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </nav>
+
+    <!-- sections -->
+    <!-- introduction -->
+    <section id="Home" class="spacing-section-bottom">
+        <div>
+
+            <h3 id="day" data-testid="currentDay">Day:</h3>
+            <h3 id="time" data-testid="currentTimeUTC">Time(UTC):</h3>
+
+            <img data-testid="slackProfilePicture" class="profile-picture" src="/slack profile-picture-128×128.png"
+                alt="">
+            <h2>Hello.</h2>
+            <p class="intro">i am Okuo Emmanuel Oshireku(T Beast), a front-end intern at HNG internship and i love
+                jollof rice</p>
+        </div>
+    </section>
+    <!-- my goals -->
+    <section id="Goals" class="spacing-section-top spacing-section-buttom">
+        <div>
+            <h2>Goals</h2>
+            <img src="/goal-128×128.png" alt="">
+
+            <div class="skill-row">
+                <img class="coding-image" src="/code-128×128.png" alt="">
+                <h3>Web development</h3>
+                <p>In my next two years in tech, my goal is to improve my front and backend skills and become a
+                    fullstack web
+                    developer.</p>
+            </div>
+            <div class="skill-row">
+                <img class="coding-image" src="/python-128×128.png" alt="">
+                <h3>Python</h3>
+                <p>learn python and and be able to write good and clean codes.</p>
+            </div>
+
+            <div class="skill-row">
+                <img class="coding-image" src="/partners-128×128.png" alt="">
+                <h3>Work togeher with others to build meaningful projects</h3>
+                <p>In my next two years in tech, my aim is to connect with other techies like me and apply my skills to
+                    work together to build meaningful projects.</p>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- my hobbies -->
+
+    <!-- links to hng internship and others -->
+    <section id="HNG" class="spacing-section-top spacing-section-buttom">
+        <div>
+            <h2>HNG internship and others</h2>
+            <img class="icons" src="/id-card-128×128.png" alt="">
+
+            <div class="skill-row">
+                <img class="coding-image" src="/parenthesis-128×128.png" alt="">
+                <h3 class="HNG-text">HNG internship</h3>
+                <p class="HNG-text">HNG is the best place to transform my Tech Career.
+                    it ofters me various pathways that allow me to upskill myself into a valuable contributor in the
+                    technology space. By joining the frontend program, i expect to gain valuable skills, significantly
+                    improve
+                    my knowledge, and build a network of like-minded people that will take me to the next level.
+                    HNG is a set of programmes designed for intermediate to advanced learners who want to rapidly move
+                    forward in their career - and end up in jobs in the best international companies. click<a
+                        href="http://hng.tech/learn" data-testid="hngLink" class="external-link">
+                        here</a> to
+                    learn more about HNG. You can also checkout <a href="http://scrapeanyweb.site"
+                        data-testid="scrapeanywebLink" class="external-link">Scrapeanyweb.site</a> and <a
+                        href="http://keyword.dog" data-testid="keywordLink" class="external-link">Keyword.dog</a>
+                    to do some cool stuff.
+                </p>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- slack email/contact me -->
+    <section id="Contact" class="spacing-section-top">
+        <h2>Get In Touch</h2>
+        <p>i look forward to working on amazing projects with you. i am only a click away!</p>
+        <a class="footer-link"
+            href="https://www.linkedin.com/in/emmanuel-okuo-8ba1b4210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><img
+                class="footer-image" src="/linkedin-logo-24×24.png" alt=""></a>
+        <a class="footer-link" href="https://twitter.com/OkuoOshie"><img class="footer-image" src="/twitter-24×24.png"
+                alt=""></a>
+        <a class="footer-link" href="//wa.me/+2348162786722"><img class="footer-image" src="/whatsapp-24×24.png"
+                alt=""></a>
+        <p class="footer-link" data-testid="slackEmail">okuooshie@gmail.com</p>
+
+
+
+
+        <p class="copy-right">© 2024 Emmanuel Oshireku Okuo.</p>
+    </section>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
